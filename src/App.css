@@ -125,7 +125,6 @@ header p {
   flex-direction: column;
   flex: 1;
   min-height: 0;
-  overflow: hidden;
 }
 
 .category-filter {
@@ -168,10 +167,9 @@ header p {
 .flashcard-wrap {
   flex: 1;
   min-height: 0;
-  max-height: calc(100vh - 220px);
+  overflow: hidden;
   perspective: 1200px;
   cursor: pointer;
-  margin-bottom: 0;
 }
 
 .flashcard {
